@@ -51,7 +51,7 @@
             }
         },
         "servicePrincipalClientSecret": {
-            "type": "string",
+            "type": "securestring",
             "metadata": {
                 "description": "Unique SPN password"
             }
@@ -81,7 +81,7 @@
             }
         },
         "AZDATA_PASSWORD": {
-            "type": "string",
+            "type": "securestring",
             "metadata": {
                 "description": "Arc Data Controller Password"
             }
@@ -100,7 +100,7 @@
             }
         },
         "DOCKER_PASSWORD": {
-            "type": "string",
+            "type": "securestring",
             "metadata": {
                 "description": "Private Arc Data Docker Registry Password"
             }
