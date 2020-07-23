@@ -242,7 +242,7 @@
                         }
                     },
                     {
-                        "name": "allow_SQL_1433",
+                        "name": "allow_PostgreSQL_1433",
                         "properties": {
                             "priority": 1002,
                             "protocol": "TCP",
@@ -251,7 +251,7 @@
                             "sourceAddressPrefix": "*",
                             "sourcePortRange": "*",
                             "destinationAddressPrefix": "*",
-                            "destinationPortRange": "1443"
+                            "destinationPortRange": "5432"
                         }
                     }
                 ]
